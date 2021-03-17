@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/first-web-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +56,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -145,6 +151,7 @@
       <updated>1615507767342</updated>
       <workItem from="1615507771494" duration="2637000" />
       <workItem from="1615562171359" duration="439000" />
+      <workItem from="1615937898564" duration="1806000" />
     </task>
     <servers />
   </component>
@@ -164,10 +171,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615562302410">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615939895067">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615562302410" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615939895067" />
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1615508491623">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -188,5 +195,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615514073815" />
+    <state x="209" y="78" key="new project wizard" timestamp="1615939181634">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1615939181634" />
   </component>
 </project>
