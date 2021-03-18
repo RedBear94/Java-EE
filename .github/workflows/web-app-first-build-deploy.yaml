@@ -17,6 +17,7 @@ jobs:
       - name: Build with maven
         id: mvn_build
         run: |
+          cd first-web-app
           mvn --batch-mode clean install wildfly:undeploy wildfly:deploy \
           -Dwildfly.hostname=${{ WILDFLY_HOSTNAME }} \
           -Dwildfly.username=${{ secrets.WILDFLY_ADMIN_LOGIN }} \
