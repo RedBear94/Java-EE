@@ -1,1 +1,9 @@
+org\example\FirstHttpServlet.class
 org\example\FirstServlet.class
+org\example\AccessDeniedServlet.class
+org\example\persist\Product.class
+org\example\filter\EncodingFilter.class
+org\example\ProductServlet.class
+org\example\persist\ProductRepository.class
+org\example\listener\StartupListener.class
+org\example\filter\SecurityFilter.class
