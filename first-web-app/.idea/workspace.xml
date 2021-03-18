@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AccessDeniedServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstHttpServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/some.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +149,7 @@
       <updated>1615507767342</updated>
       <workItem from="1615507771494" duration="2637000" />
       <workItem from="1615562171359" duration="439000" />
-      <workItem from="1615937898564" duration="23613000" />
+      <workItem from="1615937898564" duration="24011000" />
     </task>
     <servers />
   </component>
@@ -198,22 +181,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1616016867209" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616060537202">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616060629126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616060537202">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616060629126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616060537201">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616060629126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616060537201" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616060537202">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616060629126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
     <state x="209" y="78" key="new project wizard" timestamp="1615939181634">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
