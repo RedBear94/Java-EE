@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/first-web-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AccessDeniedServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstHttpServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/SecurityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/some.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FirstServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -54,13 +66,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
@@ -79,6 +92,7 @@
               <list>
                 <option value="clean" />
                 <option value="install" />
+                <option value="wildfly:undeploy" />
                 <option value="wildfly:deploy" />
               </list>
             </option>
@@ -106,6 +120,7 @@
               <list>
                 <option value="clean" />
                 <option value="install" />
+                <option value="wildfly:undeploy" />
                 <option value="wildfly:deploy" />
                 <option value="-Dwildfly.hostname=5.63.157.43" />
                 <option value="-Dwildfly.username=admin" />
@@ -151,7 +166,7 @@
       <updated>1615507767342</updated>
       <workItem from="1615507771494" duration="2637000" />
       <workItem from="1615562171359" duration="439000" />
-      <workItem from="1615937898564" duration="1806000" />
+      <workItem from="1615937898564" duration="23613000" />
     </task>
     <servers />
   </component>
@@ -171,30 +186,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615939895067">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1616009235328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615939895067" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1615508491623">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1616009235328" />
+    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615942011347">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1615508491623" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1615514073815">
+    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615942011347" />
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1616016867209">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615514073815" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1615514073815">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1616016867209" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616060537202">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615514073815" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1615514073815">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616060537202">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615514073815" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1615514073815">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616060537201">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615514073815" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616060537201" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616060537202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616060537202" />
     <state x="209" y="78" key="new project wizard" timestamp="1615939181634">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
