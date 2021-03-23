@@ -19,7 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="" />
+    <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CategoryControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomerControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category_form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer_form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/scripts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/first-web-app/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +57,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -55,11 +87,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.Wildfly remote deploy">
     <configuration name="Wildfly local deploy" type="MavenRunConfiguration" factoryName="Maven">
@@ -149,7 +189,9 @@
       <updated>1615507767342</updated>
       <workItem from="1615507771494" duration="2637000" />
       <workItem from="1615562171359" duration="439000" />
-      <workItem from="1615937898564" duration="24011000" />
+      <workItem from="1615937898564" duration="24835000" />
+      <workItem from="1616406753397" duration="15421000" />
+      <workItem from="1616501335901" duration="3300000" />
     </task>
     <servers />
   </component>
@@ -169,6 +211,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="395" y="96" key="#Inspections" timestamp="1616440275153">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1616440275153" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1616009235328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -177,26 +223,50 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615942011347" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1616016867209">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1616501735926">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1616016867209" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616060629126">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1616501735926" />
+    <state x="498" y="207" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1616440217003">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616060629126">
+    <state x="498" y="207" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1616440217003" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616440221761">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616060629126">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616440221761" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616504656753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616060629126">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616504656753">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616060629126" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616504656753">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616504656753">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1616457187320">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616457187320" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1616457187320">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1616457187320" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1616457187319">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1616457187319" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1616457187320">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1616457187320" />
     <state x="209" y="78" key="new project wizard" timestamp="1615939181634">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
