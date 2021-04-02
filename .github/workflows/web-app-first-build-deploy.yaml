@@ -22,3 +22,12 @@ jobs:
           -Dwildfly.hostname=${{ secrets.WILDFLY_HOSTNAME }} \
           -Dwildfly.username=${{ secrets.WILDFLY_ADMIN_LOGIN }} \
           -Dwildfly.password=${{ secrets.WILDFLY_ADMIN_PASSWORD }}
+          
+      - name: Build with maven
+        id: mvn_build
+        run: |
+          cd first-web-app/first-jsf-app
+          mvn --batch-mode clean install wildfly:undeploy wildfly:deploy \
+          -Dwildfly.hostname=${{ secrets.WILDFLY_HOSTNAME }} \
+          -Dwildfly.username=${{ secrets.WILDFLY_ADMIN_LOGIN }} \
+          -Dwildfly.password=${{ secrets.WILDFLY_ADMIN_PASSWORD }}
