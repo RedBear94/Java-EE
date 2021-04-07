@@ -20,33 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CategoryControllerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomerControllerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/persist/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category_form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer_form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/navigation.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product_form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/scripts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/category.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/category_form.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/customer.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/customer_form.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product_form.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/web-app-first-build-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/listener/StartupListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/first-web-app/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +61,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -87,21 +92,28 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/first-jsf-app/src/main/webapp" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\first-jsf-app\src\main\webapp" />
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\firs-jsf-app\src\main\java" />
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\firs-jsf-app\src\main\java\org\example" />
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\firs-jsf-app\src\main" />
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.Wildfly remote deploy">
+  <component name="RunManager" selected="Maven.Wildfly local deploy">
     <configuration name="Wildfly local deploy" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -191,7 +203,9 @@
       <workItem from="1615562171359" duration="439000" />
       <workItem from="1615937898564" duration="24835000" />
       <workItem from="1616406753397" duration="15421000" />
-      <workItem from="1616501335901" duration="3300000" />
+      <workItem from="1616501335901" duration="4054000" />
+      <workItem from="1617282639802" duration="18279000" />
+      <workItem from="1617359858208" duration="2776000" />
     </task>
     <servers />
   </component>
@@ -219,10 +233,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1616009235328" />
-    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615942011347">
+    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617298969544">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1615942011347" />
+    <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1617298969544" />
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1616501735926">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -231,26 +245,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="498" y="207" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1616440217003" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616440221761">
+    <state x="587" y="222" key="FileChooserDialogImpl" timestamp="1617299577875">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616440221761" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1616504656753">
+    <state x="587" y="222" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617299577875" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1617321147616">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1616504656753">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1617321147616">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1616504656753">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1617321147616">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1616504656753">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1617321147616">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616504656753" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1616457187320">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -267,9 +281,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1616457187320" />
-    <state x="209" y="78" key="new project wizard" timestamp="1615939181634">
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog" timestamp="1617301656220">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="209" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1615939181634" />
+    <state x="299" y="72" key="Maven.ArtifactSearchDialog/0.0.1536.834@0.0.1536.834" timestamp="1617301656220" />
+    <state x="439" y="122" width="681" height="590" key="NewModule_or_Project.wizard" timestamp="1617299586248">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="439" y="122" width="681" height="590" key="NewModule_or_Project.wizard/0.0.1536.834@0.0.1536.834" timestamp="1617299586248" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1617299590185">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1617299590185" />
+    <state x="209" y="78" key="new project wizard" timestamp="1617300838022">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1617300838022" />
   </component>
 </project>
