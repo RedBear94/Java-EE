@@ -20,38 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/Controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/CategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/category.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/category_form.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/customer.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/customer_form.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product_form.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.github/workflows/web-app-first-build-deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/web-app-first-build-deploy.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProductControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/filter/EncodingFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/first-web-app/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/first-web-app/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-jsf-app/datasource.cli" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/datasource.cli" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +175,13 @@
       <workItem from="1616406753397" duration="15421000" />
       <workItem from="1616501335901" duration="4054000" />
       <workItem from="1617282639802" duration="18279000" />
-      <workItem from="1617359858208" duration="2776000" />
+      <workItem from="1617359858208" duration="3655000" />
+      <workItem from="1617811645252" duration="584000" />
+      <workItem from="1617818188663" duration="822000" />
+      <workItem from="1617819615293" duration="234000" />
+      <workItem from="1617819985373" duration="10677000" />
+      <workItem from="1617843114612" duration="58000" />
+      <workItem from="1618001908407" duration="3032000" />
     </task>
     <servers />
   </component>
@@ -225,10 +201,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="668" y="309" key="#Assign_Data_Sources" timestamp="1617836811537">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="668" y="309" key="#Assign_Data_Sources/0.0.1536.834@0.0.1536.834" timestamp="1617836811537" />
     <state x="395" y="96" key="#Inspections" timestamp="1616440275153">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="395" y="96" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1616440275153" />
+    <state x="654" y="280" key="#Notifications" timestamp="1617819657776">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="654" y="280" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1617819657776" />
     <state x="249" y="0" key="#Project_Structure" timestamp="1616009235328">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -237,6 +221,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="72" width="1225" height="689" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1617298969544" />
+    <state x="512" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617820284461">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="512" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1617820284461" />
     <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1616501735926">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -249,22 +237,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="587" y="222" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617299577875" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1617321147616">
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom" timestamp="1618004280319">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1617321147616">
+    <state width="1493" height="219" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1618004280319" />
+    <state width="1493" height="219" key="GridCell.Tab.0.center" timestamp="1618004280319">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1617321147616">
+    <state width="1493" height="219" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1618004280319" />
+    <state width="1493" height="219" key="GridCell.Tab.0.left" timestamp="1618004280319">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1617321147616">
+    <state width="1493" height="219" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1618004280319" />
+    <state width="1493" height="219" key="GridCell.Tab.0.right" timestamp="1618004280319">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617321147616" />
+    <state width="1493" height="219" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618004280319" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1616457187320">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -297,5 +285,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="209" y="78" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1617300838022" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1617841396393">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1617841396393" />
   </component>
 </project>
