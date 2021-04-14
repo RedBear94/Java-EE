@@ -1,19 +1,33 @@
 package org.example.persist;
 
+import javax.persistence.*;
+import java.util.List;
+
+@Entity
+@Table(name = "categories")
+@NamedQueries({
+        @NamedQuery(name = "findAllCategories", query = "from Category"),
+        @NamedQuery(name = "countAllCategories", query = "select count(*) from Category"),
+        @NamedQuery(name = "deleteCategoryById", query = "delete from Category p where p.id = :id")
+})
 public class Category {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column
     private String name;
 
-    private String description;
+    @OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
+    private List<Product> products;
 
     public Category() {
     }
 
-    public Category(Long id, String name, String description) {
+    public Category(Long id, String name) {
         this.id = id;
         this.name = name;
-        this.description = description;
     }
 
     public Long getId() {
@@ -32,11 +46,11 @@ public class Category {
         this.name = name;
     }
 
-    public String getDescription() {
-        return description;
+    public List<Product> getProducts() {
+        return products;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }

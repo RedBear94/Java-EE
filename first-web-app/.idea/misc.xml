@@ -12,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/first-jsf-app/pom.xml" />
+        <option value="$PROJECT_DIR$/client-app/pom.xml" />
       </list>
     </option>
   </component>
