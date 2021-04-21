@@ -1,45 +1,54 @@
 package org.example.persist;
 
-import javax.annotation.PostConstruct;
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Named;
-import java.util.ArrayList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+
+import javax.ejb.Stateless;
+import javax.ejb.TransactionAttribute;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.atomic.AtomicLong;
 
-@ApplicationScoped
-@Named
+
+@Stateless
 public class CategoryRepository {
-    private final Map<Long, Category> categoryMap = new ConcurrentHashMap<>();
 
-    private final AtomicLong identity = new AtomicLong(0);
+    private static final Logger logger = LoggerFactory.getLogger(CategoryRepository.class);
 
-    @PostConstruct
-    public void init() {
-        save(new Category(null, "Category 1", "Description 1"));
-        save(new Category(null, "Category 2", "Description 2"));
-        save(new Category(null, "Category 3", "Description 3"));
-        save(new Category(null, "Category 4", "Description 4"));
-    }
+    @PersistenceContext(unitName = "ds")
+    private EntityManager em;
 
-    public void save(Category category) {
-        if (category.getId() == null) {
-            category.setId(identity.incrementAndGet());
-        }
-        categoryMap.put(category.getId(), category);
-    }
-
-    public void delete(Long id) {
-        categoryMap.remove(id);
+    public List<Category> findAll() {
+        return em.createNamedQuery("findAllCategories", Category.class)
+                .getResultList();
     }
 
     public Category findById(Long id) {
-        return categoryMap.get(id);
+        return em.find(Category.class, id);
     }
 
-    public List<Category> findAll() {
-        return new ArrayList<>(categoryMap.values());
+    public Category getReference(Long id) {
+        return em.getReference(Category.class, id);
+    }
+
+    public Long countAll() {
+        return em.createNamedQuery("countAllCategories", Long.class)
+                .getSingleResult();
+    }
+
+    @TransactionAttribute
+    public void saveOrUpdate(Category category) {
+        if (category.getId() == null) {
+            em.persist(category);
+        }
+        em.merge(category);
+    }
+
+    @TransactionAttribute
+    public void deleteById(Long id) {
+        em.createNamedQuery("deleteCategoryById")
+                .setParameter("id", id)
+                .executeUpdate();
     }
 }
