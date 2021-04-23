@@ -3,6 +3,7 @@ package org.example.service;
 import org.example.persist.CategoryRepository;
 import org.example.persist.Product;
 import org.example.persist.ProductRepository;
+import org.example.rest.ProductResource;
 import org.example.service.repr.ProductRepr;
 
 import javax.ejb.EJB;
@@ -14,7 +15,7 @@ import java.util.stream.Collectors;
 
 @Stateless
 @Remote(ProductServiceRemote.class)
-public class ProductServiceImpl implements ProductService, ProductServiceRemote {
+public class ProductServiceImpl implements ProductService, ProductServiceRemote, ProductResource {
 
     @EJB
     private ProductRepository productRepository;
@@ -42,6 +43,22 @@ public class ProductServiceImpl implements ProductService, ProductServiceRemote 
     @Override
     public ProductRepr findById(long id) {
         return createProductReprWithCategory(productRepository.findById(id));
+    }
+
+    @Override
+    public void insert(ProductRepr productRepr) {
+        if (productRepr.getId() != null) {
+            throw new IllegalArgumentException("Not null id in the inserted Product");
+        }
+        save(productRepr);
+    }
+
+    @Override
+    public void update(ProductRepr productRepr) {
+        if (productRepr.getId() == null) {
+            throw new IllegalArgumentException("Null id in the inserted Product");
+        }
+        save(productRepr);
     }
 
     @Override
