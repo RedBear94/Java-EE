@@ -20,20 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edc1d903-064b-4858-9ff5-476251e6d2e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client-app/src/main/java/JmsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/jms-queue.cli" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/request.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/jms/JmsProductReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/rest/JaxRsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/rest/ProductResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/cart.xhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/security.cli" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/persist/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/RoleRepr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/UserRepr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/jboss-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/admin/user.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/admin/user_form.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/login.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client-app/src/main/resources/wildfly-jndi.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client-app/src/main/resources/wildfly-jndi.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-jsf-app/mysql-driver.cli" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/mysql-driver.cli" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-jsf-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/java/org/example/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/fragments/header.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/fragments/header.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/cart.xhtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/cart.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/first-jsf-app/src/main/webapp/product.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +50,8 @@
       <list>
         <option value="Jsp File" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,8 +87,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\first-jsf-app\src\main\webapp" />
+      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.Controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\first-jsf-app\src\main\webapp" />
@@ -91,13 +103,6 @@
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\firs-jsf-app\src\main\java\org\example" />
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\firs-jsf-app\src\main" />
       <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF\views" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.example.Controller" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\first-jsf-app\src\main\webapp" />
-      <recent name="D:\geekbrains\Java Enterprise Edition\Java-EE\first-web-app\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -195,10 +200,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.EjbClient" />
+      <item itemvalue="HTTP Request.request#1" />
       <item itemvalue="Maven.Wildfly local deploy" />
       <item itemvalue="Maven.Wildfly remote deploy" />
       <item itemvalue="Remote.Remote Wildfly debug" />
-      <item itemvalue="HTTP Request.request#1" />
     </list>
     <recent_temporary>
       <list>
@@ -234,6 +239,7 @@
       <workItem from="1618328016654" duration="13684000" />
       <workItem from="1618400785063" duration="7835000" />
       <workItem from="1619008969184" duration="10967000" />
+      <workItem from="1619712069551" duration="6361000" />
     </task>
     <servers />
   </component>
