@@ -1,0 +1,12 @@
+GET http://localhost:8080/first-jsf-app/api/v1/product
+
+<> 2021-04-22T022722.200.json
+
+###
+
+GET http://localhost:8080/first-jsf-app/api/v1/product
+
+<> 2021-04-22T022609.404.html
+
+###
+
